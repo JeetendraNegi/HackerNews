@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddMemoryCache();
+builder.Services.AddSwaggerGen();
 
 // registering the HackerNews, Cache Service
 builder.Services.AddScoped<IHackerNewsServices, HackerNewsServices>();
@@ -42,4 +43,7 @@ app.UseRouting();
 app.UseCors(MyAllowSpecificOrigins);
 
 app.MapDefaultControllerRoute();
+
+app.UseSwagger();
+app.UseSwaggerUI();
 app.Run();
