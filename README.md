@@ -1,4 +1,4 @@
-<img width="349" alt="image" src="https://github.com/JeetendraNegi/HackerNews/assets/40231981/f0e418d1-a8f9-457e-9a05-bd532faf7a32">**#HackerNews Web API**
+**#HackerNews Web API**
 
 **#Controller**
 
