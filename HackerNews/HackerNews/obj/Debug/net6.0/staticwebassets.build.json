@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QF4K0PIqaSRAn4fDjF9pVwzyRStbsp2CPsgY+p9mKFQ=",
+  "Source": "HackerNews",
+  "BasePath": "_content/HackerNews",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
